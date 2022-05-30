@@ -642,51 +642,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: transparent;
 }
 
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.from-purple-500 {
-  --tw-gradient-from: #a855f7;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(168 85 247 / 0));
-}
-
-.from-indigo-500 {
-  --tw-gradient-from: #6366f1;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(99 102 241 / 0));
-}
-
-.via-purple-500 {
-  --tw-gradient-stops: var(--tw-gradient-from), #a855f7, var(--tw-gradient-to, rgb(168 85 247 / 0));
-}
-
-.to-pink-500 {
-  --tw-gradient-to: #ec4899;
-}
-
-.bg-auto {
-  background-size: auto;
-}
-
-.bg-contain {
-  background-size: contain;
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-center {
-  background-position: center;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .p-8 {
@@ -698,14 +661,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 3rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .text-left {
